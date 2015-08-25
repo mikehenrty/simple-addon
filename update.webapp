@@ -1,0 +1,6 @@
+{
+  "name" : "Firefox OS add-on banner",
+  "description": "Firefox OS add-on example",
+  "developer": { "name": "Chris Mills" },
+  "package_path": "extension.zip"
+}

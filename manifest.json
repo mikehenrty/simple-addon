@@ -1,0 +1,12 @@
+{
+    "manifest_version": 1,
+    "name": "Add-on banner",
+    "description": "Firefox OS add-on example",
+    "version": "1.0",
+    "author": "Chris Mills",
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["js/index.js"]
+    }]
+}
