@@ -8,5 +8,8 @@
       "matches": ["<all_urls>"],
       "css": ["style.css"],
       "js": ["js/index.js"]
-    }]
+    }],
+    "icons": {
+      "128": "icon/128.png"
+    }
 }
