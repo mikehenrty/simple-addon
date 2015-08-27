@@ -7,13 +7,32 @@
 
     <title>FxOS add-on example</title>
     <link href="style.css" rel="stylesheet">
+    <style>
+      h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+      }
+    </style>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
 
   <body>
-    <p>My body</p>
+    <h1>Firefox OS add-on demo</h1>
+
+    <p><button>Install sample Firefox OS add-on</button></p>
   </body>
   <script src="js/index.js"></script>
+  <script>
+  var installBtn = document.querySelector('button');
+
+  button.onclick = function() {
+    install('update.webapp')
+  }
+
+  function install(url) {
+    navigator.mozApps.installPackage('http://chrisdavidmills.github.io/simple-addon/' + url);
+  }
+  </script>
 </html>
