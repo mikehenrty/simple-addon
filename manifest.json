@@ -6,7 +6,7 @@
     "author": "Chris Mills",
     "content_scripts": [{
       "matches": ["*"],
-      "css": ["style.css"],
+      "css": ["css/style.css"],
       "js": ["js/index.js"]
     }],
     "icons": {
