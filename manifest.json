@@ -5,7 +5,7 @@
     "version": "1.0",
     "author": "Chris Mills",
     "content_scripts": [{
-      "matches": [".*"],
+      "matches": ["app://system.gaiamobile.org/index.html"],
       "css": ["css/style.css"],
       "js": ["js/index.js"]
     }],
