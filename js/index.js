@@ -12,7 +12,7 @@ else {
 }
 
 function initialize() {
-  if (document.documentElement.dataset.helloWorldInitialized) {
+  if (document.querySelector('.fxos-banner')) {
     // Already injected, abort.
     return;
   } else {
@@ -29,11 +29,8 @@ function initialize() {
     closeBtn.textContent = 'X';
     bannerText.textContent = 'Wow, you have an extension installed!';
 
-    document.documentElement.dataset.helloWorldInitialized = true;
-
     closeBtn.onclick = function() {
     	fxosBanner.parentNode.removeChild(fxosBanner);
-      document.documentElement.dataset.helloWorldInitialized = false;
     }
   }
 }
