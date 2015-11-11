@@ -2,7 +2,7 @@
     "manifest_version": 1,
     "name": "Add-on example",
     "description": "Firefox OS add-on example",
-    "version": "4.0",
+    "version": "5.0",
     "author": "Chris Mills",
     "content_scripts": [{
       "matches": ["app://system.gaiamobile.org/index.html"],
