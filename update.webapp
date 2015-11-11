@@ -1,6 +1,6 @@
 {
   "name" : "Add-on example",
-  "version": "5.0",
+  "version": "6.0",
   "description": "Firefox OS add-on example",
   "developer": { "name": "Chris Mills" },
   "package_path": "extension.zip",
